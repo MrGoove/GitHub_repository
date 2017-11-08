@@ -46,6 +46,7 @@ $(function(){
       <a href="../proinfo.jsp">纸巾</a>  &nbsp;
       <a href="../proinfo.jsp">纸巾</a> &nbsp;
       <a href="../proinfo.jsp">纸杯</a>&nbsp;
+      <a href="../proinfo.jsp">避孕套</a>&nbsp;
      </div><!--hotWord/-->
     </div><!--subBoxDiv/-->
    </form><!--subBox/-->
