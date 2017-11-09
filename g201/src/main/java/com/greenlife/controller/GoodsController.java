@@ -36,4 +36,10 @@ public class GoodsController {
         request.setAttribute("goods",goods);
         return "forward:/proinfo.jsp";
     }
+
+    public String findGoodsById(GoodsVo goodsVo,HttpServletRequest request){
+        Goods goods=goodsService.findGoodsByID(goodsVo);
+        request.setAttribute("goods",goods);
+        return "forward:/proinfo.jsp";
+    }
 }

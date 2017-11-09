@@ -21,12 +21,12 @@ $(function(){
 <body>
  <div class="mianCont">
   <div class="top">
-   <span>您好！${sessionScope.user.username}&nbsp&nbsp欢迎来到17商城</span>
+   <span>您好！${sessionScope.user.username}&nbsp&nbsp欢迎来到1777商城</span>
    <c:if test="${empty sessionScope.user}">
     <span>请&nbsp;<a href="../login.jsp">[登录]</a>&nbsp;<a href="../reg.jsp">[注册]</a></span>
    </c:if>
    <span class="topRight">
-    <a href="../vip.jsp">我的17</a>&nbsp;|
+    <a href="../vip.jsp">我的17777</a>&nbsp;|
     <a href="../order.jsp">我的订单</a>&nbsp;|
     <a href="../login.jsp">会员中心</a>&nbsp;|
     <a href="../contact.jsp">联系我们</a>
